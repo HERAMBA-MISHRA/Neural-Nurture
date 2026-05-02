@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -f src/controllers/chatController.js)",
+      "Bash(rm -f src/models/chatModel.js)",
+      "Bash(rm -f src/app/api/wellness/scan/route.js)",
+      "Bash(rm -f src/app/api/diagnostic/models/route.js)",
+      "Bash(rm -f src/app/api/admin/chat/route.js)",
+      "Bash(npm install *)",
+      "PowerShell(Move-Item *)",
+      "Bash(npm run *)",
+      "Bash(git rm *)",
+      "Bash(git add *)",
+      "PowerShell(taskkill *)"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Neural Nurture",
+  "short_name": "Neural Nurture",
+  "description": "AI-Powered Public Healthcare Assistant — Hindi, English, Hinglish",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e293b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "medical"],
+  "lang": "hi",
+  "screenshots": []
+}
