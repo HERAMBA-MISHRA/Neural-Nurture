@@ -160,7 +160,8 @@ export default function AuthPage() {
           email,
           password,
           options: {
-            data: { first_name: firstName, last_name: lastName, role: role }
+            data: { first_name: firstName, last_name: lastName, role: role },
+            emailRedirectTo: `${window.location.origin}/auth/callback`
           }
         });
         if (error) {
